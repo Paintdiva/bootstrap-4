@@ -1,0 +1,3 @@
+[submodule "cool-stuff"]
+	path = cool-stuff
+	url = https://github.com/Paintdiva/cool-stuff.git
