@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'bower' ]
+2 info using npm@5.6.0
+3 info using node@v8.9.4
+4 verbose npm-session 469cfdaf788150ae
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/bower 226ms
+8 silly pacote tag manifest for bower@latest fetched in 268ms
+9 warn deprecated bower@1.8.2: ...psst! Your project can stop working at any moment because its dependencies can change. Prevent this by migrating to Yarn: https://bower.io/blog/2017/how-to-migrate-away-from-bower/
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 silly install loadShrinkwrap
+13 silly install loadAllDepsIntoIdealTree
+14 silly resolveWithNewModule bower@1.8.2 checking installable status
+15 silly currentTree lib
+16 silly idealTree lib
+16 silly idealTree └── bower@1.8.2
+17 silly install generateActionsToTake
+18 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+19 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+20 verbose cwd /Users/lauramolina
+21 verbose Darwin 17.3.0
+22 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "bower"
+23 verbose node v8.9.4
+24 verbose npm  v5.6.0
+25 error path /usr/local/lib/node_modules
+26 error code EACCES
+27 error errno -13
+28 error syscall access
+29 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+29 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+29 error   stack: 'Error: EACCES: permission denied, access \'/usr/local/lib/node_modules\'',
+29 error   errno: -13,
+29 error   code: 'EACCES',
+29 error   syscall: 'access',
+29 error   path: '/usr/local/lib/node_modules' }
+30 error Please try running this command again as root/Administrator.
+31 verbose exit [ -13, true ]

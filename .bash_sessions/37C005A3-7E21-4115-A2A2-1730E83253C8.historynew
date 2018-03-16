@@ -1,0 +1,10 @@
+npm -v.
+npm install npm@latest -g.
+npm install --package-lock.json
+npm install --package-lock-only
+npx npm-merge-driver install --global
+npm install [--package-lock-only]
+npm install --package-lock-only
+git commit -m package.json
+npm install npm@latest -g.
+npm install npm@latest -g.

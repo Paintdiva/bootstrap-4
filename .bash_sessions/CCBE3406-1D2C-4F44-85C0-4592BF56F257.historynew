@@ -1,0 +1,25 @@
+which git
+git --version
+git config --global user.name "lauramolina"
+git config --global user.email "laurapaintdiva@gmail.com"
+git config --list
+ls -la
+cat .gitconfig
+git config --global core.editor "textedit"
+git config --global core.editor "textedit -wl1"
+git config --global color.ui true
+cd~
+cd ~
+curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash
+mv ~/git-completion.bash ~/git-completion.bash
+ls -la
+.bash_profile
+git help
+cd 
+cd~
+cd ~
+cd Documents/git_lm_project/
+git init
+ls
+ls -la
+ls -la .git

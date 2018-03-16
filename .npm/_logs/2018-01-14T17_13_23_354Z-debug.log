@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'startbootstrap-shop-item' ]
+2 info using npm@5.6.0
+3 info using node@v8.9.4
+4 verbose config Skipping project config: /Users/lauramolina/.npmrc. (matches userconfig)
+5 verbose npm-session 1dc598bc410aa894
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 http fetch GET 304 https://registry.npmjs.org/startbootstrap-shop-item 393ms (from cache)
+9 silly pacote tag manifest for startbootstrap-shop-item@latest fetched in 426ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 silly install loadShrinkwrap
+13 silly install loadAllDepsIntoIdealTree
+14 silly saveTree startbootstrap-shop-item@4.0.0-beta.2
+14 silly saveTree ├── bootstrap@4.0.0-beta.3
+14 silly saveTree └── jquery@3.2.1
+15 verbose stack Error: Refusing to install package with name "startbootstrap-shop-item" under a package
+15 verbose stack also called "startbootstrap-shop-item". Did you name your project the same
+15 verbose stack as the dependency you're installing?
+15 verbose stack
+15 verbose stack For more information, see:
+15 verbose stack     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+15 verbose stack     at checkSelf (/usr/local/lib/node_modules/npm/lib/install/validate-args.js:64:14)
+15 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+15 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+15 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+15 verbose stack     at hasMinimumFields (/usr/local/lib/node_modules/npm/lib/install/validate-args.js:30:12)
+15 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+15 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+15 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+15 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/validate-args.js:16:5
+15 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+15 verbose stack     at Array.forEach (<anonymous>)
+15 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+15 verbose stack     at Array.forEach (<anonymous>)
+15 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+15 verbose stack     at module.exports (/usr/local/lib/node_modules/npm/lib/install/validate-args.js:15:3)
+15 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+16 verbose cwd /Users/lauramolina
+17 verbose Darwin 17.3.0
+18 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "startbootstrap-shop-item"
+19 verbose node v8.9.4
+20 verbose npm  v5.6.0
+21 error code ENOSELF
+22 error Refusing to install package with name "startbootstrap-shop-item" under a package
+22 error also called "startbootstrap-shop-item". Did you name your project the same
+22 error as the dependency you're installing?
+22 error
+22 error For more information, see:
+22 error     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+23 verbose exit [ 1, true ]

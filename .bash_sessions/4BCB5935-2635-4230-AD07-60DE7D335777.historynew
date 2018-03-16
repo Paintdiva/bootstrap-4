@@ -1,0 +1,3 @@
+$ git init cool-stuff
+git log
+git init cool-stuff.git

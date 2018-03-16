@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '[--package-lock-only]' ]
+2 info using npm@5.6.0
+3 info using node@v8.10.0
+4 verbose config Skipping project config: /Users/lauramolina/.npmrc. (matches userconfig)
+5 verbose npm-session fedb8e31cfff09f6
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 verbose stack Error: Invalid tag name "[--package-lock-only]": Tags may not have any characters that encodeURIComponent encodes.
+8 verbose stack     at invalidTagName (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:85:15)
+8 verbose stack     at fromRegistry (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:272:13)
+8 verbose stack     at resolve (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:75:12)
+8 verbose stack     at npa (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:48:10)
+8 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/deps.js:204:14
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+8 verbose stack     at Array.forEach (<anonymous>)
+8 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+8 verbose stack     at Array.forEach (<anonymous>)
+8 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+8 verbose stack     at exports.getAllMetadata (/usr/local/lib/node_modules/npm/lib/install/deps.js:201:3)
+8 verbose stack     at Installer.loadArgMetadata (/usr/local/lib/node_modules/npm/lib/install.js:352:3)
+8 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:685:16
+8 verbose stack     at BB.join.then (/usr/local/lib/node_modules/npm/lib/install/read-shrinkwrap.js:41:16)
+8 verbose stack     at tryCatcher (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+8 verbose stack     at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:512:31)
+9 verbose cwd /Users/lauramolina
+10 verbose Darwin 17.4.0
+11 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "[--package-lock-only]"
+12 verbose node v8.10.0
+13 verbose npm  v5.6.0
+14 error code EINVALIDTAGNAME
+15 error Invalid tag name "[--package-lock-only]": Tags may not have any characters that encodeURIComponent encodes.
+16 verbose exit [ 1, true ]

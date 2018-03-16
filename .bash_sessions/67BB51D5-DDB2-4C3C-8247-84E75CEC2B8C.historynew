@@ -1,0 +1,7 @@
+$ cat .git/HEAD
+ref: refs/heads/master
+git branch jquery focuspoint
+git init focuspoint
+git mv jquery focuspoint focuspoint
+git mv jquery focuspoint /Users/lauramolina/focuspoint/.git/
+git show

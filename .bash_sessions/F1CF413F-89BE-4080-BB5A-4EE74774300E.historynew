@@ -1,0 +1,10 @@
+git --version
+git config --global user.name "Paintdiva"
+git config --global user.email "lmolina1@my.canyons.edu"
+git config --global core.editor atom
+git config --list
+git show package-lock.json
+git submodule add https://github.com/Paintdiva/cool-stuff.git
+git show /Users/lauramolina/package-lock.json
+git commit -m cool-stuff.git
+git show /Users/lauramolina/package-lock.json

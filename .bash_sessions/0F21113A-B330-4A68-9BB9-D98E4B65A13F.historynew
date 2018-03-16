@@ -1,0 +1,30 @@
+cd Documents/git_lm_project/
+git init
+ls -la
+git config --global core.editor "atom"
+cd
+git config --global core.editor "atom"
+git config --global core.editor "atom -wll"
+git show
+git status
+git_lm_project show
+git read-tree HEAD
+git read-tree --reset HEAD
+cvd
+cd
+git commit -m /Users/lauramolina/Documents/git_lm_project/.git/
+mkdir ~/git_lm_project
+cd ~/git_lm_project
+git init
+git remote add origin https://github.com/Paintdiva/cool-stuff.git
+git status
+git add /Users/lauramolina/Documents/git_lm_project/jquery-focuspoint/
+git add /Users/lauramolina/Documents/git_lm_project/.git/
+cd ~
+curl -OL https://github.com/git/git/raw/master/contrib/completion/git-completion.bash
+git pull https://github.com/Paintdiva/jquery-focuspoint.git
+git add /Users/lauramolina/Documents/.git/
+git add /Users/lauramolina/.git
+git_lm_project lauramolina$ git submodule add https://github.com/Paintdiva/ScrollMagic.git ScrollMagic
+git submodule add https://github.com/Paintdiva/ScrollMagic.git ScrollMagic
+cd

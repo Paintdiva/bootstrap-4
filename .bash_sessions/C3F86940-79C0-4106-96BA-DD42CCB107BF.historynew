@@ -1,0 +1,20 @@
+cd '/Users/lauramolina/Documents/LauraMolina.com/'; git status
+git add js/
+git status
+git add assets/
+git rm --cached assets/fonts/fonts
+git -f --cached assets/fonts/fonts
+git -f assets/fonts/fonts
+git rm --cached assets/fonts/fonts
+-f
+git rm -f
+git rm -f assets/fonts/fonts
+git rm -f assets/
+git rm -r assets/fonts/fonts
+git help remove
+git help force
+git rm --cached assets/fonts/fonts
+git cat-file-p e625e5aac978e524ccf170a72120452d4152cdb3
+git cat-file -p e625e5aac978e524ccf170a72120452d4152cdb3 testcontent
+$ echo 'test content' | git hash-object -w --stdin e625e5aac978e524ccf170a72120452d4152cdb3
+. ~/git-completion.bash

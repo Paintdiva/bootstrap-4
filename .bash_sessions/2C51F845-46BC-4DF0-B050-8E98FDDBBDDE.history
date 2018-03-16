@@ -1,0 +1,49 @@
+diskutil resetUserPermissions / `id -u`
+csrutil status
+csrutil enable
+npm i startbootstrap-shop-item
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+command -v nvm
+npm i startbootstrap-shop-item
+Install-Package popper.js -Version 1.12.9
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew help
+npm i startbootstrap-shop-item
+node -v
+npm -v
+npm install <package_name>
+npm install <node_modules>
+npm install node_modules
+cd path/to/directory
+cd
+> npm install <package_name>
+[sudo] npm install npm@latest -g
+npm i startbootstrap-shop-item
+npm i startbootstrap-shop-itemnpm install <package_name>git clone https://github.com/BlackrockDigital/startbootstrap-shop-item.git
+sudo:          false
+language:      node_js
+node_js:
+  - "node"
+install:       npm install
+script:
+  - npm test
+  - gulp
+cache:
+  directories:
+    - node_modules
+npm i startbootstrap-shop-itemnpm install <package_name>git clone <https://github.com/BlackrockDigital/startbootstrap-shop-item.git>
+npm i startbootstrap-shop-itemnpm install <https://github.com/BlackrockDigital/startbootstrap-shop-item.git>
+Install-Package popper.js -Version 1.12.9
+npm install popper.js --save
+npm i startbootstrap-shop-item
+gem install bootstrap -v 4.0.0.beta3
+npm install bootstrap@4.0.0-beta.3
+npm i popper.js
+/Users/lauramolina/node_modules/popper.js 
+npm install -g bower
+npm i popper.js
+chmod 755 package-lock.json.sh
+git status
+git commit 
+git commit -m .gitignore

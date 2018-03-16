@@ -1,0 +1,11 @@
+cd /home/user/git_lm_project
+cd /home/lauramolina/git_lm_project
+git reset
+git show user.name
+git status
+git config --global user.name "Paintdiva"
+git config --global user.email "laurapaintdiva@gmail.com"
+git config --global core.editor atom
+git_lm_project lauramolina$ git add .
+git add .
+git config list

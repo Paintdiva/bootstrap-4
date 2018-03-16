@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node_modules' ]
+2 info using npm@5.6.0
+3 info using node@v8.9.4
+4 verbose config Skipping project config: /Users/lauramolina/.npmrc. (matches userconfig)
+5 verbose npm-session 66ce60d48ae734f0
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData error for node_modules Parameter "url" must be a string, not undefined
+9 verbose stack TypeError: Parameter "url" must be a string, not undefined
+9 verbose stack     at Url.parse (url.js:103:11)
+9 verbose stack     at urlParse (url.js:97:13)
+9 verbose stack     at Url.resolve (url.js:654:29)
+9 verbose stack     at Object.urlResolve [as resolve] (url.js:650:40)
+9 verbose stack     at metadataUrl (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/fetchers/registry/manifest.js:33:14)
+9 verbose stack     at manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/fetchers/registry/manifest.js:22:15)
+9 verbose stack     at Object.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/fetchers/registry/index.js:12:12)
+9 verbose stack     at Object.Fetcher#manifest [as manifest] (/usr/local/lib/node_modules/npm/node_modules/pacote/node_modules/protoduck/node_modules/genfun/lib/genfun.js:15:38)
+9 verbose stack     at manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/fetch.js:16:18)
+9 verbose stack     at pinflight (/usr/local/lib/node_modules/npm/node_modules/pacote/manifest.js:24:12)
+9 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/promise-inflight/inflight.js:29:24
+9 verbose stack     at Promise._execute (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/debuggability.js:303:9)
+9 verbose stack     at Promise._resolveFromExecutor (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:483:18)
+9 verbose stack     at new Promise (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:79:10)
+9 verbose stack     at _inflight (/usr/local/lib/node_modules/npm/node_modules/promise-inflight/inflight.js:28:25)
+9 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/promise-inflight/inflight.js:22:14
+10 verbose cwd /Users/lauramolina
+11 verbose Darwin 17.3.0
+12 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "node_modules"
+13 verbose node v8.9.4
+14 verbose npm  v5.6.0
+15 error Parameter "url" must be a string, not undefined
+16 verbose exit [ 1, true ]
